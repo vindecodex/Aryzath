@@ -4,4 +4,4 @@ Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https
 
 ## Creational Patterns
 
-[Factory Method](/master/factory_method)
+[Factory Method](/factory_method)
