@@ -9,3 +9,6 @@ Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https
 ## Structural Patterns
 
 [Facade](/facade)
+
+## Behavioral Patterns
+
