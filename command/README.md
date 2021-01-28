@@ -4,7 +4,7 @@ It follows the single responsibility principle. Each Command Class performs spec
 
 It follows Open/Closed Principle since it is easy to add new commands.
 
-It also allows undo features easily introduced by uncle bob.
+It also allows undo features easily introduced by uncle bob. [Undo](/undo)
 
 It also allows queing of commands.
 
