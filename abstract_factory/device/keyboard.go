@@ -4,6 +4,6 @@ type Keyboard struct {
 	Color string
 }
 
-func (c *Keyboard) GetColor() string {
-	return c.Color
+func (k *Keyboard) GetColor() string {
+	return k.Color
 }

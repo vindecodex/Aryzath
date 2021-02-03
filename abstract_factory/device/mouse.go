@@ -4,6 +4,6 @@ type Mouse struct {
 	Color string
 }
 
-func (c *Mouse) GetColor() string {
-	return c.Color
+func (m *Mouse) GetColor() string {
+	return m.Color
 }

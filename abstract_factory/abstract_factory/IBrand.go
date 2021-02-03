@@ -1,7 +1,6 @@
 package abstract_factory
 
 import (
-	"Aryzath/abstract_factory/branding"
 	"errors"
 )
 
@@ -13,10 +12,10 @@ type IBrand interface {
 func GetBrand(brand string) (IBrand, error) {
 	switch brand {
 	case "razer":
-		return branding.Razer{}, nil
+		return &Razer{}, nil
 	case "steelseries":
-		return branding.SteelSeries{}, nil
+		return &Steelseries{}, nil
 	default:
-		return nil, errors.New("Not supported branding")
+		return nil, errors.New("Brand not Exist")
 	}
 }
