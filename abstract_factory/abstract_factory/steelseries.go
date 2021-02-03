@@ -1,14 +1,13 @@
 package abstract_factory
 
 import (
-	"Aryzath/abstract_factory/branding"
 	"Aryzath/abstract_factory/device"
 )
 
 type Steelseries struct{}
 
 func (Steelseries) CreateMouse() IMouse {
-	return &branding.SteelseriesMouse{
+	return &device.SteelseriesMouse{
 		SSMouse: &device.Mouse{
 			Color: "Yellow",
 		},
@@ -16,7 +15,7 @@ func (Steelseries) CreateMouse() IMouse {
 }
 
 func (Steelseries) CreateKeyboard() IKeyboard {
-	return &branding.SteelseriesKeyboard{
+	return &device.SteelseriesKeyboard{
 		SSKeyboard: &device.Keyboard{
 			Color: "Yellow",
 		},
