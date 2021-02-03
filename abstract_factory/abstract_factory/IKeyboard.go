@@ -3,9 +3,9 @@ package abstract_factory
 import "fmt"
 
 type IKeyboard interface {
-	GetColor()
+	GetColor() string
 }
 
-func GetKeyboardDetails(keyboard abstract_factory.IKeyboard) {
+func GetKeyboardDetails(keyboard IKeyboard) {
 	fmt.Println(keyboard.GetColor())
 }
