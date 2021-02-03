@@ -8,7 +8,7 @@ type Steelseries struct{}
 
 func (Steelseries) CreateMouse() IMouse {
 	return &device.SteelseriesMouse{
-		SSMouse: &device.Mouse{
+		Mouse: device.Mouse{
 			Color: "Yellow",
 		},
 	}
@@ -16,7 +16,7 @@ func (Steelseries) CreateMouse() IMouse {
 
 func (Steelseries) CreateKeyboard() IKeyboard {
 	return &device.SteelseriesKeyboard{
-		SSKeyboard: &device.Keyboard{
+		Keyboard: device.Keyboard{
 			Color: "Yellow",
 		},
 	}
