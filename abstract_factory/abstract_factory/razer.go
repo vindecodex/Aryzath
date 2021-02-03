@@ -8,7 +8,7 @@ type Razer struct{}
 
 func (Razer) CreateMouse() IMouse {
 	return &device.RazerMouse{
-		RMouse: &device.Mouse{
+		Mouse: device.Mouse{
 			Color: "Green",
 		},
 	}
@@ -16,7 +16,7 @@ func (Razer) CreateMouse() IMouse {
 
 func (Razer) CreateKeyboard() IKeyboard {
 	return &device.RazerKeyboard{
-		RKeyboard: &device.Keyboard{
+		Keyboard: device.Keyboard{
 			Color: "Green",
 		},
 	}
