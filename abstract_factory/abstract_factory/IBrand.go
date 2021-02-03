@@ -5,8 +5,8 @@ import (
 )
 
 type IBrand interface {
-	CreateMouse()
-	CreateKeyboard()
+	CreateMouse() IMouse
+	CreateKeyboard() IKeyboard
 }
 
 func GetBrand(brand string) (IBrand, error) {
