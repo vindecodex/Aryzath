@@ -1,13 +1,14 @@
-package branding
+package abstract_factory
 
 import (
+	"Aryzath/abstract_factory/branding"
 	"Aryzath/abstract_factory/device"
 )
 
 type Razer struct{}
 
 func (Razer) CreateMouse() IMouse {
-	return &device.RazerMouse{
+	return &branding.RazerMouse{
 		RMouse: &device.Mouse{
 			Color: "Green",
 		},
@@ -15,7 +16,7 @@ func (Razer) CreateMouse() IMouse {
 }
 
 func (Razer) CreateKeyboard() IKeyboard {
-	return &device.RazerKeyboard{
+	return &branding.RazerKeyboard{
 		RKeyboard: &device.Keyboard{
 			Color: "Green",
 		},
