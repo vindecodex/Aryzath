@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	razer := abstract_factory.GetBrand("razer")
+	razer, _ := abstract_factory.GetBrand("razer")
 	rmouse := razer.CreateMouse()
 	rkeyboard := razer.CreateKeyboard()
 
