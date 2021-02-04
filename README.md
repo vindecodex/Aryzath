@@ -8,6 +8,8 @@ Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https
 
 [Abstract Factory](/abstract_factory)
 
+[Builder](/builder)
+
 ## Structural Patterns
 
 [Facade](/facade)
