@@ -17,3 +17,8 @@ JavaEclipse
 CppEclipse
 
 Although we still have 4 objects but it separates the concern and its depencies of each objects.
+
+Netbeans
+Eclipse
+Java
+Cpp
