@@ -24,6 +24,8 @@ Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https
 
 [Composite](/composite)
 
+[Decorator](/decorator)
+
 ## Behavioral Patterns
 
 [Command](/command)
