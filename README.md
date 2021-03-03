@@ -28,6 +28,8 @@ Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https
 
 [Flyweight](/flyweight)
 
+[Proxy](/proxy)
+
 ## Behavioral Patterns
 
 [Command](/command)
