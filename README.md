@@ -35,3 +35,6 @@ Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https
 [Command](/command)
 
 [Memento](/memento)
+
+[Chain of Responsibility](/chain_of_responsibility)
+
