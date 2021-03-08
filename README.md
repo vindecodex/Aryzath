@@ -38,3 +38,4 @@ Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https
 
 [Chain of Responsibility](/chain_of_responsibility) | [Chain of Responsibility 01](/chain_of_responsibility_01)
 
+[Iterator](/iterator)
