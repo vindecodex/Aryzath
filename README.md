@@ -41,3 +41,5 @@ Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https
 [Iterator](/iterator)
 
 [Mediator](/mediator)
+
+[Observer](/observer)
