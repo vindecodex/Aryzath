@@ -47,3 +47,5 @@ Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https
 [State](/state)
 
 [Strategy](/strategy)
+
+[Template Method](/template_method)
