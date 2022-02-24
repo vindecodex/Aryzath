@@ -1,8 +1,6 @@
 package main
 
-import (
-	"Aryzath/abstract_factory/abstract_factory"
-)
+import "github.com/vindecodex/Aryzath/abstract_factory/abstract_factory"
 
 func main() {
 	// Talks to the factory which returns an interface
