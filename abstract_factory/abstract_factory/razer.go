@@ -1,8 +1,6 @@
 package abstract_factory
 
-import (
-	"Aryzath/abstract_factory/device"
-)
+import "github.com/vindecodex/Aryzath/abstract_factory/device"
 
 type Razer struct{}
 
