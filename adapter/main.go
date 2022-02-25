@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Aryzath/adapter/adapter"
-	"Aryzath/adapter/file"
-	"Aryzath/adapter/player"
+	"github.com/vindecodex/Aryzath/adapter/adapter"
+	"github.com/vindecodex/Aryzath/adapter/file"
+	"github.com/vindecodex/Aryzath/adapter/player"
 )
 
 func main() {
