@@ -1,6 +1,6 @@
 package player
 
-import "Aryzath/adapter/file"
+import "github.com/vindecodex/Aryzath/adapter/file"
 
 type AudioPlayer struct{}
 
