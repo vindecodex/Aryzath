@@ -1,8 +1,9 @@
 package adapter
 
 import (
-	"Aryzath/adapter/file"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/adapter/file"
 )
 
 type Mp4Adapter struct {
