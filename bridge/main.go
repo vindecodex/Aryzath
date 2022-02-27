@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Aryzath/bridge/abstraction_heirarchy"
-	"Aryzath/bridge/implementation_heirarchy"
+	"github.com/vindecodex/Aryzath/bridge/abstraction_heirarchy"
+	"github.com/vindecodex/Aryzath/bridge/implementation_heirarchy"
 )
 
 func main() {
