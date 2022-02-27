@@ -1,8 +1,9 @@
 package abstraction_heirarchy
 
 import (
-	"Aryzath/bridge/implementation_heirarchy"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/bridge/implementation_heirarchy"
 )
 
 type Cpp struct {
