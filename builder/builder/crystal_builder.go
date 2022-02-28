@@ -1,6 +1,6 @@
 package builder
 
-import "Aryzath/builder/builder/product"
+import "github.com/vindecodex/Aryzath/builder/builder/product"
 
 type CrystalBuilder struct {
 	RightArm  string
