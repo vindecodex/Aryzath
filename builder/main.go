@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/builder/builder"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/builder/builder"
 )
 
 func main() {
