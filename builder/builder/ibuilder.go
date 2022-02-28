@@ -1,8 +1,9 @@
 package builder
 
 import (
-	"Aryzath/builder/builder/product"
 	"errors"
+
+	"github.com/vindecodex/Aryzath/builder/builder/product"
 )
 
 type IBuilder interface {
