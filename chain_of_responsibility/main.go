@@ -1,6 +1,6 @@
 package main
 
-import "Aryzath/chain_of_responsibility/steps"
+import "github.com/vindecodex/Aryzath/chain_of_responsibility/steps"
 
 func main() {
 
