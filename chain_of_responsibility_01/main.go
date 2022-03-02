@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/chain_of_responsibility_01/steps"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/chain_of_responsibility_01/steps"
 )
 
 func main() {
