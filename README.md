@@ -2,7 +2,8 @@
 
 <h1>Aryzath</h1>
 
-<p>Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https://en.wikipedia.org/wiki/Software_design_pattern) implemented using my favorite language Google's Go Language (Golang).</p>
+<p>Aryzath is just a dragon name, but this repo is all about [DESIGN PATERNS](https://en.wikipedia.org/wiki/Software_design_pattern)</p> 
+<p>Implemented using my favorite language Google's Go Language (Golang).</p>
 
 </div>
 
