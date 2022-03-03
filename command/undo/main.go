@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Aryzath/command/undo/command"
-	"Aryzath/command/undo/device"
+	"github.com/vindecodex/Aryzath/command/undo/command"
+	"github.com/vindecodex/Aryzath/command/undo/device"
 )
 
 func main() {
