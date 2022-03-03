@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Aryzath/command/command"
-	"Aryzath/command/device"
+	"github.com/vindecodex/Aryzath/command/command"
+	"github.com/vindecodex/Aryzath/command/device"
 )
 
 func main() {
