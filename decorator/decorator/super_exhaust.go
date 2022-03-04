@@ -1,6 +1,6 @@
 package decorator
 
-import "Aryzath/decorator/component"
+import "github.com/vindecodex/Aryzath/decorator/component"
 
 type SuperExhaust struct {
 	Car component.Car
