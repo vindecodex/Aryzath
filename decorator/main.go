@@ -1,9 +1,10 @@
 package main
 
 import (
-	"Aryzath/decorator/component"
-	"Aryzath/decorator/decorator"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/decorator/component"
+	"github.com/vindecodex/Aryzath/decorator/decorator"
 )
 
 func main() {
