@@ -1,6 +1,6 @@
 package main
 
-import "Aryzath/composite/composite"
+import "github.com/vindecodex/Aryzath/composite/composite"
 
 func main() {
 	phone := &composite.Product{Name: "IPhone"}
