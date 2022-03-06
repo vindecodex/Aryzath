@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/facade/device"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/facade/device"
 )
 
 func main() {
