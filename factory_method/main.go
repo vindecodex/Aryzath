@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/factory_method/tool"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/factory_method/tool"
 )
 
 func main() {
