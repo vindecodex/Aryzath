@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Aryzath/flyweight/flyweight"
-	"Aryzath/flyweight/game"
+	"github.com/vindecodex/Aryzath/flyweight/flyweight"
+	"github.com/vindecodex/Aryzath/flyweight/game"
 )
 
 func main() {
