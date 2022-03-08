@@ -1,8 +1,9 @@
 package game
 
 import (
-	"Aryzath/flyweight/flyweight"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/flyweight/flyweight"
 )
 
 type Game struct {
