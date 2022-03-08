@@ -1,6 +1,6 @@
 package game
 
-import "Aryzath/flyweight/flyweight"
+import "github.com/vindecodex/Aryzath/flyweight/flyweight"
 
 type Player struct {
 	Team flyweight.Team
