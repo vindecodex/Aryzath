@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/iterator/iterator"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/iterator/iterator"
 )
 
 func main() {
