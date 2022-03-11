@@ -1,6 +1,6 @@
 package main
 
-import "Aryzath/mediator/mediator"
+import "github.com/vindecodex/Aryzath/mediator/mediator"
 
 func main() {
 	roadManager := mediator.NewRoadManager()
