@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/memento/memento"
 	"testing"
+
+	"github.com/vindecodex/Aryzath/memento/memento"
 )
 
 func TestMemento(t *testing.T) {
