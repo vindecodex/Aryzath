@@ -1,6 +1,6 @@
 package main
 
-import "Aryzath/observer/observer"
+import "github.com/vindecodex/Aryzath/observer/observer"
 
 func main() {
 	customerA := observer.NewCustomer(1, "John")
