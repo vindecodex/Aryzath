@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/prototype/game"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/prototype/game"
 )
 
 func main() {
