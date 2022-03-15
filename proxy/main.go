@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/proxy/proxy"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/proxy/proxy"
 )
 
 func main() {
