@@ -1,8 +1,9 @@
 package proxy
 
 import (
-	"Aryzath/proxy/app"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/proxy/app"
 )
 
 type Proxy struct {
