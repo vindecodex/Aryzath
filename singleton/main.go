@@ -1,9 +1,10 @@
 package main
 
 import (
-	"Aryzath/singleton/singleton"
 	"fmt"
 	"sync"
+
+	"github.com/vindecodex/Aryzath/singleton/singleton"
 )
 
 var once sync.Once // thread safe
