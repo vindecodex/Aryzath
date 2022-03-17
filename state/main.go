@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/state/state"
 	"log"
+
+	"github.com/vindecodex/Aryzath/state/state"
 )
 
 func main() {
