@@ -1,6 +1,6 @@
 package main
 
-import "Aryzath/strategy/strategy"
+import "github.com/vindecodex/Aryzath/strategy/strategy"
 
 func main() {
 	squareRoot := strategy.NewSquareRoot(5)
