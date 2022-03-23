@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Aryzath/template_method/template"
 	"fmt"
+
+	"github.com/vindecodex/Aryzath/template_method/template"
 )
 
 func main() {
