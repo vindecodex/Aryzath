@@ -1,6 +1,6 @@
 package main
 
-import "Aryzath/visitor/visitor"
+import "github.com/vindecodex/Aryzath/visitor/visitor"
 
 func main() {
 	car := visitor.NewCar()
