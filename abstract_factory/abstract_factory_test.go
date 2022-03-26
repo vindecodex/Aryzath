@@ -12,14 +12,17 @@ func TestAbstractFactory(t *testing.T) {
 	razer, _ := abstract_factory.GetBrand("razer")
 	steelseries, _ := abstract_factory.GetBrand("steelseries")
 
+	// Created the Object by interacting with the interface
 	rmouse := razer.CreateMouse()
 	rkeyboard := razer.CreateKeyboard()
 
+	// Created the Object by interacting with the interface
 	smouse := steelseries.CreateMouse()
 	skeyboard := steelseries.CreateKeyboard()
 
 	t.Run("Abstract Factory test #1: Razer", func(t *testing.T) {
 
+		// Get Information through factory method that accepts interface as argument
 		rmouse_got := abstract_factory.GetMouseDetails(rmouse)
 		rkeyboard_got := abstract_factory.GetKeyboardDetails(rkeyboard)
 
@@ -37,6 +40,7 @@ func TestAbstractFactory(t *testing.T) {
 
 	t.Run("Abstract Factory test #2: Steelseries", func(t *testing.T) {
 
+		// Get Information through factory method that accepts interface as argument
 		smouse_got := abstract_factory.GetMouseDetails(smouse)
 		skeyboard_got := abstract_factory.GetKeyboardDetails(skeyboard)
 
