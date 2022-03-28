@@ -1,5 +1,5 @@
 package file
 
 type Media interface {
-	PlayAudio()
+	PlayAudio() string
 }
