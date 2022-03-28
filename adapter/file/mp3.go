@@ -1,9 +1,7 @@
 package file
 
-import "fmt"
-
 type Mp3 struct{}
 
-func (Mp3) PlayAudio() {
-	fmt.Println("Playing From Mp3 File")
+func (Mp3) PlayAudio() string {
+	return "Playing From Mp3 File"
 }
