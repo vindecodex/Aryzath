@@ -1,8 +1,6 @@
 package abstraction_heirarchy
 
 import (
-	"fmt"
-
 	"github.com/vindecodex/Aryzath/bridge/implementation_heirarchy"
 )
 
@@ -16,6 +14,6 @@ func (j *Java) SetIde(ide implementation_heirarchy.Ide) {
 }
 
 // The implementation of IDE was executed here
-func (j *Java) Compile() {
-	fmt.Println("Java Compiling using " + j.ide.CompileLanguage())
+func (j *Java) Compile() string {
+	return "Java Compiling using " + j.ide.CompileLanguage()
 }
