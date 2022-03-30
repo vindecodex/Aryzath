@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/vindecodex/Aryzath/bridge/abstraction_heirarchy"
 	"github.com/vindecodex/Aryzath/bridge/implementation_heirarchy"
 )
@@ -13,15 +15,15 @@ func main() {
 	cpp_file := &abstraction_heirarchy.Cpp{}
 
 	java_file.SetIde(eclipse)
-	java_file.Compile()
+	fmt.Println(java_file.Compile())
 
 	java_file.SetIde(netbeans)
-	java_file.Compile()
+	fmt.Println(java_file.Compile())
 
 	cpp_file.SetIde(eclipse)
-	cpp_file.Compile()
+	fmt.Println(cpp_file.Compile())
 
 	cpp_file.SetIde(netbeans)
-	cpp_file.Compile()
+	fmt.Println(cpp_file.Compile())
 
 }
