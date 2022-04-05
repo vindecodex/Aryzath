@@ -3,13 +3,13 @@ package composite
 import "fmt"
 
 type Box struct {
-	component []Component
+	Component []Component
 	Name      string
 }
 
 func (b *Box) Scan() {
 	fmt.Println("Scanning from " + b.Name)
-	for _, compos := range b.component {
+	for _, compos := range b.Component {
 		fmt.Print("-")
 		compos.Scan()
 	}
@@ -17,5 +17,5 @@ func (b *Box) Scan() {
 }
 
 func (b *Box) Add(c Component) {
-	b.component = append(b.component, c)
+	b.Component = append(b.Component, c)
 }
