@@ -6,7 +6,7 @@ import (
 	"github.com/vindecodex/Aryzath/chain_of_responsibility/steps"
 )
 
-func TestAdapter(t *testing.T) {
+func TestChainOfResponsibility(t *testing.T) {
 
 	t.Run("record should all be true", func(t *testing.T) {
 
