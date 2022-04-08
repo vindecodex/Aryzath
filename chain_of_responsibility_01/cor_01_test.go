@@ -6,7 +6,7 @@ import (
 	"github.com/vindecodex/Aryzath/chain_of_responsibility_01/steps"
 )
 
-func TestAdapter(t *testing.T) {
+func TestChainOfResponsibility01(t *testing.T) {
 
 	t.Run("car speed should increase by 2", func(t *testing.T) {
 
