@@ -7,7 +7,7 @@ import (
 	"github.com/vindecodex/Aryzath/command/device"
 )
 
-func TestAdapter(t *testing.T) {
+func TestCommand(t *testing.T) {
 
 	do := command.Do{}
 
