@@ -10,13 +10,13 @@ type CrystalBuilder struct {
 }
 
 func (c *CrystalBuilder) SetRightArm() {
-	c.RightArm = "right crystal arm"
+	c.RightArm = "Right Crystal Arm"
 }
 func (c *CrystalBuilder) SetLeftArm() {
-	c.LeftArm = "left crystal arm"
+	c.LeftArm = "Left Crystal Arm"
 }
 func (c *CrystalBuilder) SetLegs() {
-	c.Legs = "crystal legs"
+	c.Legs = "Crystal Legs"
 }
 func (c *CrystalBuilder) SetProcessor() {
 	c.Processor = "AMD Ryzeen"
