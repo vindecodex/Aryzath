@@ -7,7 +7,7 @@ import (
 )
 
 func TestFactoryMethod(t *testing.T) {
-	t.Run("", func(t *testing.T) {
+	t.Run("This will set tools to pencil", func(t *testing.T) {
 		got := "Pencil"
 		want := tool.SetTool().GetToolName()
 		if got != want {
