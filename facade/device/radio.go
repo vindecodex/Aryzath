@@ -30,8 +30,16 @@ func (r *Radio) SetVolume(v int) {
 	r.volume = v
 }
 
+func (r *Radio) GetVolume() int {
+	return r.volume
+}
+
 func (r *Radio) SetStation(s string) {
 	r.station = s
+}
+
+func (r *Radio) GetStation() string {
+	return r.station
 }
 
 func (r *Radio) setStatus(s string) {
