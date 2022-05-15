@@ -23,3 +23,7 @@ func (g *Game) ShowPlayers() {
 		fmt.Println(player.Team.GetColor())
 	}
 }
+
+func (g *Game) ShowPlayer(index int) string {
+	return g.Players[index].Team.GetColor()
+}
